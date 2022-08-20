@@ -8,5 +8,7 @@
   --primary-color: #f97f29;
   --secondary-color: #19283f;
   --dark-gray: #5f6187;
-  --input-background: #f3f3f3;
+  --light: #f3f3f3;
+  --dark: #333;
+  --grey: #666;
 }
