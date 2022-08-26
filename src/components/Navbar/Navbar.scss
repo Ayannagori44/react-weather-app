@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.6rem 0 4.4rem;
+}
+
+img {
+  width: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 0.6rem;
+}
+
+.welcome {
+  h1 {
+    font-size: 21px;
+    font-weight: 300;
+    color: var(--dark);
+  }
+
+  h2 {
+    font-size: 23px;
+    color: var(--secondary-color);
+  }
+}
+
+input {
+  outline: none;
+  border: none;
+  background: var(--light-2);
+  padding: 1rem 1.5rem;
+  width: 250px;
+  border-radius: 100px;
+
+  &::placeholder {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}

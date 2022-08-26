@@ -1,27 +1,22 @@
 import React from "react";
 
-import "./Navbar.css";
-import profile from "../../resources/logo-circle.png";
+import "./Navbar.scss";
 
 import { FiSearch } from "react-icons/fi";
+import Avatar from "../../resources/profileavatar/original-c045ce20d30d8297f61523ae982a2fed.webp";
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="profile">
-        <img
-          src={
-            "https://cdn.dribbble.com/users/823181/screenshots/6866583/dreamland_illustrations_4x.png?compress=1&resize=768x576&vertical=top"
-          }
-          alt="user profile"
-        />
+      <div className="flex">
+        <img src={Avatar} alt="user profile" />
         <div className="welcome">
           <h1>Hello,</h1>
           <h2>Jack Grelish</h2>
         </div>
       </div>
 
-      <div className="search">
+      <div className="flex">
         <input type="text" placeholder="Search City..." />
         <FiSearch
           style={{

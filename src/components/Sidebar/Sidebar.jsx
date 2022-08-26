@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Sidebar.css";
+import "./Sidebar.scss";
 
 import { BiChart } from "react-icons/bi";
 import { BiMap } from "react-icons/bi";

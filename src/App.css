@@ -7,8 +7,57 @@
 :root {
   --primary-color: #f97f29;
   --secondary-color: #19283f;
-  --dark-gray: #5f6187;
-  --light: #f3f3f3;
-  --dark: #333;
-  --grey: #666;
+  --secondary-color-2: #cbe16a;
+
+  --light-1: #fff;
+  --light-2: #f3f3f3;
+
+  --dark-1: #222;
+  --dark: #414141;
+
+  --grey-1: #555;
+  --grey-2: #5f6187;
+
+  --radius: 15px;
+  --shadow: 1px 5px 10px;
+
+  font-size: 62.5%;
+  letter-spacing: 0.05rem;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.badge-heading {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  color: var(--dark);
+  font-size: 1rem;
+  padding: 0.2rem 0.6rem;
+  margin-left: 1rem;
+  background: var(--secondary-color-2);
+  border-radius: var(--radius);
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  -ms-border-radius: var(--radius);
+  -o-border-radius: var(--radius);
 }
