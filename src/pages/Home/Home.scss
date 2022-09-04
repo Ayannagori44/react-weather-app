@@ -4,21 +4,25 @@
 }
 
 .main-section {
-  width: 74%;
-  padding: 0 4rem;
+  width: 73%;
+  padding: 0 5rem;
 }
 
 .side-section {
-  width: 26%;
+  width: 27%;
 }
 
 .col {
-  width: 48.6%;
+  width: 47%;
   padding: 2rem;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   position: relative;
   overflow: hidden;
   color: var(light-1);
-  background-color: #ffffff50;
+  background-color: #ffffff22;
   border-radius: var(--radius);
   -webkit-border-radius: var(--radius);
   -moz-border-radius: var(--radius);
@@ -31,34 +35,33 @@ video {
   top: 0;
   left: 0;
   z-index: -1;
-  transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  -moz-transform: scale(1.4);
-  -ms-transform: scale(1.4);
-  -o-transform: scale(1.4);
+  transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -o-transform: scale(1.6);
 }
 
 // 1
 .col-details {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 0.2rem;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 }
 
 // 2
 .temp {
-  margin: 3rem 0;
   & h1 {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
   }
   & h2 {
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -70,7 +73,7 @@ video {
   flex-direction: column;
   text-align: center;
   width: 28%;
-  padding: 1.3rem 0;
+  padding: 1.4rem 0;
   border-radius: var(--radius);
   -webkit-border-radius: var(--radius);
   -moz-border-radius: var(--radius);
@@ -78,14 +81,14 @@ video {
   -o-border-radius: var(--radius);
 
   span {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: var(--dark-1);
     letter-spacing: normal;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--dark-1);
     margin-top: 0.2rem;
@@ -97,7 +100,7 @@ video {
 }
 
 .col2 .progress-row {
-  padding: 1.2rem 2.2rem;
+  padding: 1.4rem 2.2rem;
   background: var(--light-1);
   border-radius: var(--radius);
   -webkit-border-radius: var(--radius);
@@ -109,7 +112,7 @@ video {
     width: 100%;
     h3 {
       width: min-content;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       color: var(--dark);
     }
   }
@@ -126,7 +129,7 @@ video {
     -ms-border-radius: var(--radius);
     -o-border-radius: var(--radius);
 
-    background-color: #00000011;
+    background-color: #00000022;
 
     .progress-bar-filled {
       position: absolute;
