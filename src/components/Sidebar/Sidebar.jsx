@@ -6,7 +6,7 @@ import { BiChart } from "react-icons/bi";
 import { BiMap } from "react-icons/bi";
 import { MdAccountCircle } from "react-icons/md";
 
-import Logo from "../../resources/logo-light.png";
+import Logo from "../../resources/logo.png";
 
 const Sidebar = () => {
   return (
